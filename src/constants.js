@@ -15,21 +15,20 @@ export const QUESTIONS = [
       "The Open Network (TON) is a decentralized and open internet platform made up of several components. These include: TON Blockchain, TON DNS, TON Storage, and TON Sites. TON Blockchain is the core protocol that connects TON’s underlying infrastructure together to form the greater TON Ecosystem.",
     question: "What is TON?",
     variants: [
-      { value: "1", label: "Answer 1" },
-      { value: "2", label: "Answer 2" },
-      { value: "3", label: "Answer 3" },
+      { value: "1", label: "Decentralized and open internet platform" },
+      { value: "2", label: "The core protocol that connects TON" },
     ],
   },
   {
     id: "2",
-    title: "Interoperability",
-    theory:
-      "TON is focused on achieving widespread cross-chain interoperability, while operating in a highly scalable secure framework. TON is designed to process millions of transactions per second (TPS), with the goal of eventually reaching hundreds of millions of users moving forward.",
-    question: "What is TON focused?",
+    title: "Дуров",
+    theory: "Паша Дуров - создатель telegram",
+    question: "Who is Дуров?",
     variants: [
-      { value: "1", label: "Answer 1" },
-      { value: "2", label: "Answer 2" },
-      { value: "3", label: "Answer 3" },
+      { value: "1", label: "Человек" },
+      { value: "2", label: "Не человек" },
+      { value: "3", label: "Создатель телеграм" },
+      { value: "4", label: "Создатель вконтакте" },
     ],
   },
   {
