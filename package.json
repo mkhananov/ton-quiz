@@ -10,8 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.5.1",
     "@vitejs/plugin-basic-ssl": "^1.1.0",
     "antd": "^5.21.3",
+    "framer-motion": "^11.11.8",
     "mobx": "^6.13.3",
     "mobx-react-lite": "^4.0.7",
     "prettier": "^3.3.3",

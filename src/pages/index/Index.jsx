@@ -3,6 +3,7 @@ import logo from "../../assets/logo.svg";
 import "./Index.scss";
 import Wrapper from "../../components/Wrapper.jsx";
 import { Button } from "antd";
+import Present from "./Present.jsx";
 
 const Index = () => {
   return (
@@ -15,6 +16,7 @@ const Index = () => {
       <div className="bootcamp">
         Developed on Tbilisi Bootcamp | Hackers League Hackathon{" "}
       </div>
+      <Present />
     </Wrapper>
   );
 };

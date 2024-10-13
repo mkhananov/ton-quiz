@@ -3,6 +3,10 @@ export const COLOR = {
   PRIMARY_HOVER: "#07acff",
 };
 
+export const VALUE = {
+  PRESENT: 500,
+};
+
 export const QUESTIONS = [
   {
     id: "1",

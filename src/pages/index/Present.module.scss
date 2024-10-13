@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1rem;
+}
+
+.present {
+  width: 70px;
+
+  svg {
+    fill: var(--primary-color) !important;
+  }
+}
+
+.token {
+}
+
+.coin {
+  width: 20px;
+}
+
+.coins {
+  display: flex;
+  font-size: 1.2rem;
+  gap: .5rem;
+  justify-content: center;
+  align-items: center;
+}

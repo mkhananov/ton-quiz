@@ -2,6 +2,7 @@ import { makeAutoObservable } from "mobx";
 import api from "../api.js";
 
 class Store {
+  coins = 0;
   question = {};
   isShowAnswerScreen = false;
   loadingQuestion = false;
@@ -17,6 +18,10 @@ class Store {
 
   goToAnswer() {
     this.isShowAnswerScreen = true;
+  }
+
+  setCoins(value) {
+    this.coins = value;
   }
 
   setAnswer(value) {
