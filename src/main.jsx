@@ -11,8 +11,8 @@ createRoot(document.getElementById("root")).render(
     <ConfigProvider>
       <BrowserRouter>
         <Routes>
-          <Route path={""} element={<Index />} />
-          <Route path={"quiz"} element={<Quiz />} />
+          <Route index element={<Index />} />
+          <Route path={"/quiz"} element={<Quiz />} />
         </Routes>
       </BrowserRouter>
     </ConfigProvider>
