@@ -29,10 +29,11 @@ function Quiz() {
     return "Loading...";
   }
 
-  const { title, theory, variants, answer } = question;
+  const { title, theory, variants, answer, question: q } = question;
 
   return isShowAnswerScreen ? (
     <Wrapper>
+      <h3>{q}</h3>
       <Radio.Group
         className={styles.variants}
         onChange={(e) => setAnswer(e.target.value)}
