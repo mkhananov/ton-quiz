@@ -32,4 +32,30 @@ export const QUESTIONS = [
       { value: "3", label: "Answer 3" },
     ],
   },
+  {
+    id: "3",
+    title: "Interoperability",
+    theory:
+      "Blockchain is a decentralized, distributed digital ledger technology that records transactions in a secure and transparent way. It operates through a chain of blocks, where each block contains data, a timestamp, and a cryptographic link to the previous block, making it tamper-resistant. Blockchain is often used in cryptocurrencies but has applications in various fields, including finance, supply chain, and data management.",
+    question: "What is blockchain?",
+    variants: [
+      {
+        value: "1",
+        label:
+          "It is a type of cryptocurrency used to pay for goods and services.",
+      },
+      {
+        value: "2",
+        label:
+          "It is a decentralized data storage technology based on a chain of blocks that ensures the security and transparency of transactions.",
+        isCorrect: true,
+      },
+      { value: "3", label: "It is software for creating computer games." },
+      {
+        value: "4",
+        label:
+          "It is an artificial intelligence technology that allows robots to interact with humans.",
+      },
+    ],
+  },
 ];
