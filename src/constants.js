@@ -27,7 +27,7 @@ export const QUESTIONS = [
     variants: [
       { value: "1", label: "Человек" },
       { value: "2", label: "Не человек" },
-      { value: "3", label: "Создатель телеграм" },
+      { value: "3", label: "Нечеловечеще" },
       { value: "4", label: "Создатель вконтакте" },
     ],
   },
