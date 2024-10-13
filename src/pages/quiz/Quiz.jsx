@@ -29,10 +29,11 @@ function Quiz() {
     return "Loading...";
   }
 
-  const { title, theory, variants, answer, question: q } = question;
+  const { id, title, theory, variants, answer, question: q } = question;
 
   return isShowAnswerScreen ? (
     <Wrapper>
+      <div className={styles.subheader}>Вопрос {id}</div>
       <h3>{q}</h3>
       <Radio.Group
         className={styles.variants}
@@ -51,6 +52,7 @@ function Quiz() {
     </Wrapper>
   ) : (
     <Wrapper>
+      <div className={styles.subheader}>Теория к вопросу {id}</div>
       <h2>{title}</h2>
       <div>{theory}</div>
       <Button className="button" loading={loadingQuestion} onClick={goToAnswer}>
